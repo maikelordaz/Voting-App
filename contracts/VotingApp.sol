@@ -1,17 +1,19 @@
 // SPDX-License-Identifier: unlicensed
+/* 
+@title: VotingApp
+@author: Maikel Ordaz
+*/
 
 pragma solidity ^0.8.0;
-
 import "hardhat/console.sol";
-
 contract VotingApp {
 
 // VARIABLES
 
-        address public owner;
+    address public owner;
 
         // A structure for each candidate
-        struct Candidate {
+    struct Candidate {
         string nameOfTheCandidate; //The name of the candidate
         uint voteCount; //The votes that the candidate have received
     }
