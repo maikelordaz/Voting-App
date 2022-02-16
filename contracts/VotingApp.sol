@@ -52,8 +52,7 @@ contract VotingApp {
 // FUNCTIONS 
 
     constructor(){
-            //The owner of the contract gives the right to vote to the user
-            owner = msg.sender;
+        owner = msg.sender;
     }        
     
     //A function to register a Candidate
