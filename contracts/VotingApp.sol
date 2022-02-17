@@ -68,6 +68,12 @@ contract VotingApp {
             }
 
             status = Status.Started;
+           if (status == Status.Started) {
+
+                console.log("The ballot has started.");
+
+            }
+            
     }
 
     //A function to register a user as a voter
@@ -104,6 +110,11 @@ contract VotingApp {
                 "You can not start the ballot.");
             time = block.timestamp; //To check the moment that the ballot started
             status = Status.onGoing;
+            if (status == Status.onGoing) {
+
+                console.log("The ballot on board at", time);
+
+            }
     }
 
     //A function to make the ballot
