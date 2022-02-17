@@ -1,7 +1,7 @@
 {
   "name": "tarea-1-voting-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "it run a private ballot",
   "main": "index.js",
   "scripts": {
     "compile": "hardhat compile",
