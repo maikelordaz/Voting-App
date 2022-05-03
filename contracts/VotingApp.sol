@@ -27,9 +27,6 @@ contract VotingApp {
     mapping(address => User) public idToVoter;
     mapping(uint => Candidate) public IdToCandidate;
 
-    enum Status {Started, onGoing, Ended}
-    Status public status;
-
 //MODIFIERS
 
     modifier onlyOwner() {
