@@ -1,6 +1,6 @@
 # Ballot
 
-This is a simple ballot example
+This is a simple ballot example on solidity
 
 ## :rocket: INSTALLATION
 
